@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shooter
   projectilePrefab: {fileID: 860187173794177105, guid: dea5f66ccbdf75e428d5be7fb5e8a0b8, type: 3}
-  projectileSpeed: 10
+  projectileSpeed: 20
   projectileLifetime: 5
-  baseFireRate: 1
+  baseFireRate: 0.5
   useAI: 1
   minimumFireRate: 0.5
   fireRateVariance: 0.4
@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 50
+  hitParticles: {fileID: 7506869629225786431, guid: 797bf4a8520c2a14095053e748e6a699, type: 3}
 --- !u!114 &1768132110988560392
 MonoBehaviour:
   m_ObjectHideFlags: 0
