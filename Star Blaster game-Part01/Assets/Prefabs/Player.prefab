@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 6339414472399235477}
   - component: {fileID: 119712867974938299}
   - component: {fileID: 7427850425008842037}
+  - component: {fileID: 3007038237168357632}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -207,7 +208,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.3
+  m_Radius: 0.4
 --- !u!114 &7427850425008842037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,5 +224,21 @@ MonoBehaviour:
   projectilePrefab: {fileID: 860187173794177105, guid: 1fe0d210b9c89814599bdcfa6f13e96b, type: 3}
   projectileSpeed: 20
   projectileLifetime: 5
-  fireRate: 0.2
+  baseFireRate: 0.2
+  useAI: 0
+  minimumFireRate: 0.2
+  fireRateVariance: 0
   isFiring: 0
+--- !u!114 &3007038237168357632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5748023047929187324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bacf02ab1f0424a9cc468c70e1d189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  health: 50
