@@ -16,7 +16,7 @@ public class Health : MonoBehaviour
     void Start()
     {
         cameraShake = Camera.main.GetComponent<CameraShake>();
-        audioManager = AudioManager.GetInstance();
+        audioManager = FindAnyObjectByType<AudioManager>();
         scoreKeeper = FindAnyObjectByType<ScoreKeeper>();
         levelManager = FindAnyObjectByType<LevelManager>();
     }
