@@ -145,7 +145,7 @@ MonoBehaviour:
   leftBoundPadding: 1
   rightBoundPadding: 1
   upBoundPadding: 7
-  downBoundPadding: 1
+  downBoundPadding: 3
 --- !u!50 &6339414472399235477
 Rigidbody2D:
   serializedVersion: 5
